@@ -1,0 +1,198 @@
+
+
+body {
+    background-color: #F3E5D7;
+}
+
+.inner{
+    background-color: #FFFF;
+    padding: 40px;
+    border-radius: 24px;
+    width: 736px;
+    height: 1700px;
+    margin: 128px auto 128px auto;
+}
+
+.image-container{
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#food-title{
+  font-family: 'Young Serif', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 100%;
+  Letter-spacing: 0px;
+  color: #312E2C;
+  margin-bottom: 0px;
+}
+
+#food-description {
+  font-family: 'Outfit', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #5F564D;
+}
+
+#preparation-div{
+  background-color: #FFF7FB;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+#preparation-div h3{
+  color: #7A284E;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+#preparation-div li::marker{
+  color: #7A284E;
+}
+
+#preparation-div li{
+  padding: 4px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #5F564D;
+  font-weight: 400;
+  text-indent: 20px;
+}
+
+#preparation-div ul{
+  padding-left: 25px;
+}
+
+#ingredient-div p{
+  color: #854632;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-size: 28px;
+}
+
+.ingredients-title{
+  font-size: 28px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #7A284E;
+}
+
+.ingredients-list{
+  padding-left: 18px;
+  padding-bottom: 30px;
+  border-collapse: collapse;
+  border-bottom: 1px solid #E3DDD7;
+}
+
+.ingredients-list li{
+  padding-left: 30px;
+  padding-bottom: 8px;
+  color: #5F564D;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-family: "Outfit", sans-serif;
+}
+
+.ingredients-list li::marker{
+  color: #7A284E;
+}
+
+.instructions-title{
+  font-size: 28px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #7A284E;
+}
+
+.instructions-list{
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-collapse: collapse;
+  border-bottom: 1px solid #E3DDD7;
+}
+
+.instructions-list li{
+  padding-left: 25px;
+  padding-bottom: 8px;
+  color: #5F564D;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-family: "Outfit", sans-serif;
+}
+
+.instructions-list li::marker{
+  color: #7A284E;
+}
+
+.nutrition-title{
+  font-size: 28px;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #7A284E;
+}
+
+.nutrition-description{
+  color: #5F564D;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-family: "Outfit", sans-serif;
+}
+
+.nutrition-col-1{
+  color: #5F564D;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-family: "Outfit", sans-serif;
+  padding: 12px;
+}
+
+.nutrition-col-2{
+  color: #7A284E;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-family: "Outfit", sans-serif;
+  padding: 12px;
+}
+
+/* Table styling */
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table tr:last-child{
+  border-bottom: none;
+}
+
+/* Row divider */
+.nutrition-table tr {
+  border-bottom: 1px solid #E3DDD7;
+}
+
+
+
+
