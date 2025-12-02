@@ -6,11 +6,16 @@ body {
 
 .inner{
     background-color: #FFFF;
-    padding: 40px;
+    padding: clamp(16px, 4vw,40px);
+    /* 
+  - Minimum padding: 16px (small screens)
+  - Preferred padding: 4% of viewport width (scales with screen size)
+  - Maximum padding: 40px (large screens)
+  */
     border-radius: 24px;
-    width: 736px;
-    height: 1700px;
-    margin: 128px auto 128px auto;
+    width: 100%;
+    max-width: 736px;
+    margin: 128px auto;
 }
 
 .image-container{
